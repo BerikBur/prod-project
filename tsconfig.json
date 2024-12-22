@@ -37,5 +37,18 @@
     "compilerOptions": {
       "module": "CommonJS"
     }
-  }
+  },
+  //include исключает все файлы, которые не входят в указанный тип,
+  //это будет приводить к ошибкам при автоимпорте
+  // "include": [
+  //   "./config/jest/setupTests.ts"
+  // ],
+
+  //Поэтому надо надо включить всё, что в папке src
+  //И при необходимости возможно дополнительно включить файл через
+  //"files": ["./config/jest/setupTests.ts"],
+  "include": [
+    "./src/**/*"
+  ],
+  "files": ["./config/jest/setupTests.ts"],
 }
