@@ -48,7 +48,8 @@
   //И при необходимости возможно дополнительно включить файл через
   //"files": ["./config/jest/setupTests.ts"],
   "include": [
-    "./src/**/*"
+    "./src/**/*",
+    "config/**/*"
   ],
   "files": ["./config/jest/setupTests.ts"],
 }
