@@ -12,7 +12,7 @@ export default {
     },
 } as Meta<typeof MainPage>;
 
-// При корректировке компонента AboutPage.tsx передать пропсы корректно, 
+// При корректировке компонента AboutPage.tsx передать пропсы корректно,
 // пример без использования spread-оператора:
 // const {src, alt} = props;
 // const {one_prop, two_prop} = otherProps;
