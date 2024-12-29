@@ -15,6 +15,7 @@
     "test:ui": "npx loki test",
     "test:ui:ok": "npx loki approve",
     "test:ui:ci": "start-server-and-test storybook http://localhost:6006 loki:test",
+    "test:ui:ci1": "build-storybook && loki --requireReference --reactUri file:./storybook-static",
     "loki:test": "npx loki test --requireReference --chromeDockerWithoutSecurityArgs",
     "storybook": "storybook dev -p 6006 -c ./config/storybook",
     "storybook:build": "storybook build -c ./config/storybook"

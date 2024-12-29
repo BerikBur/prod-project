@@ -29,10 +29,5 @@ jobs:
         run: npm run test:unit
       - name: build storybook
         run: npm run storybook:build
-      - name: Install fonts
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y fonts-liberation
-          fc-cache -f -v
       - name: screenshot testing
-        run: npm run test:ui:ci
+        run: npm run test:ui:ci1
