@@ -14,7 +14,8 @@
     "test:unit": "jest --config ./config/jest/jest.config.ts",
     "test:ui": "npx loki test",
     "test:ui:ok": "npx loki approve",
-    "test:ui:ci": "npx loki --requireReference --reactUri file:./storybook-static",
+    "test:ui:ci": "start-server-and-test storybook http://localhost:6006 loki:test",
+    "loki:test": "npx loki test --requireReference --chromeDockerWithoutSecurityArgs",
     "storybook": "storybook dev -p 6006 -c ./config/storybook",
     "storybook:build": "storybook build -c ./config/storybook"
   },
@@ -67,6 +68,7 @@
     "regenerator-runtime": "^0.13.9",
     "sass": "^1.49.9",
     "sass-loader": "^12.6.0",
+    "start-server-and-test": "^2.0.9",
     "storybook": "^8.4.7",
     "style-loader": "^3.3.1",
     "stylelint": "^16.12.0",
