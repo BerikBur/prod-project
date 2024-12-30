@@ -16,6 +16,7 @@
     "test:ui:update": "npx loki update --chromeDockerWithoutSecurityArgs",
     "test:ui:ok": "npx loki approve",
     "test:ui:ci": "npx loki test --requireReference --chromeDockerWithoutSecurityArgs --reactUri file:./storybook-static",
+    "test:ui:report": "node scripts/generate-visual-json-report.js",
     "loki:test": "npx loki test --requireReference --chromeDockerWithoutSecurityArgs",
     "storybook": "storybook dev -p 6006 -c ./config/storybook",
     "storybook:build": "storybook build -c ./config/storybook"
@@ -67,6 +68,7 @@
     "jest": "^27.5.1",
     "loki": "^0.35.1",
     "mini-css-extract-plugin": "^2.5.3",
+    "reg-cli": "^0.18.10",
     "regenerator-runtime": "^0.13.9",
     "sass": "^1.49.9",
     "sass-loader": "^12.6.0",
