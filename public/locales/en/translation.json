@@ -1,10 +1,11 @@
 {
-  "Тестовый пример": "Test example",
-  "Перевод": "Translate",
-  "Главная страница": "Main page",
-  "Язык": "English",
-  "Страница не найдена": "Page not found",
-  "proizoshla-nepredvidennaya-oshibka": "An unexpected error occurred",
   "obnovit-stranicu": "Refresh page",
-  "throw-error": "throw error"
+  "proizoshla-nepredvidennaya-oshibka": "An unexpected error occurred",
+  "throw-error": "Throw error",
+  "Главная": "Main",
+  "Главная страница": "Main page",
+  "Короткий язык": "En",
+  "О сайте": "About us",
+  "Страница не найдена": "Page not found",
+  "Язык": "English"
 }
