@@ -1,0 +1,13 @@
+{
+    "Test boilerplate": {
+        "prefix": "ts",
+        "body": [
+            "describe('${TM_FILENAME_BASE}', () => {",
+            "    test('$1', () => {",
+            "        expect($2).toEqual($3);",
+            "    });",
+            "});"
+        ],
+        "description": "Test boilerplate code"
+    }
+}

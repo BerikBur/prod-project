@@ -1,7 +1,11 @@
 {
+  "Modal": "Modal",
+  "dec": "dec",
+  "inc": "inc",
   "obnovit-stranicu": "Обновить страницу",
   "proizoshla-nepredvidennaya-oshibka": "Произошла непредвиденная ошибка",
   "throw-error": "throw-error",
+  "Войти": "Войти",
   "Главная": "Главная",
   "Главная страница": "Главная страница",
   "Короткий язык": "Ru",

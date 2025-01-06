@@ -1,0 +1,11 @@
+{
+    "SCSS Module Class": {
+        "prefix": "rcc",
+        "body": [
+            ".${TM_FILENAME_BASE/\\.module//} {",
+            "    $1",
+            "}"
+        ],
+        "description": "Create a SCSS module class"
+    }
+}
