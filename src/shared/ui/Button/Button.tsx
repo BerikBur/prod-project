@@ -1,6 +1,6 @@
 import { classNames } from 'shared/lib/classNames/classNames';
 import {
-    ButtonHTMLAttributes, FC, memo, useCallback, useState,
+    ButtonHTMLAttributes, memo, ReactNode,
 } from 'react';
 import cls from './Button.module.scss';
 
@@ -18,37 +18,56 @@ export enum ButtonSize {
     XL = 'size_xl',
 }
 
-interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement>{
+interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     className?: string;
+    /**
+     * Тема кнопки. Отвечает за визуальный стиль.
+     */
     theme?: ButtonTheme;
+    /**
+     * Флаг, делающий кнопку квадратной
+     */
     square?: boolean;
+    /**
+     * Размер кнопки в соответствии с дизайн системой
+     */
     size?: ButtonSize;
+    /**
+     * Содержимое кнопки
+     */
+    children?: ReactNode;
+    /**
+     * Флаг, отключающий кнопку
+     */
+    disabled?: boolean;
 }
 
-export const Button: FC<ButtonProps> = (props) => {
+export const Button = memo((props: ButtonProps) => {
     const {
         className,
         children,
-        theme,
+        theme = ButtonTheme.OUTLINE,
         square,
-        size,
+        size = ButtonSize.M,
+        disabled,
         ...otherProps
     } = props;
 
-    const mods: Record<string, boolean> = {
+    const mods: Record<string, boolean | undefined> = {
         [cls[theme]]: true,
         [cls.square]: square,
         [cls[size]]: true,
+        [cls.disabled]: disabled,
     };
 
     return (
         <button
             type="button"
             className={classNames(cls.Button, mods, [className])}
-            // eslint-disable-next-line react/jsx-props-no-spreading
+            disabled={disabled}
             {...otherProps}
         >
             {children}
         </button>
     );
-};
+});

@@ -100,7 +100,7 @@
     "react-router-dom": "^6.2.1"
   },
   "loki": {
-    "chromeSelector": ".sb-show-main",
+    "chromeSelector": "#storybook-root > *",
     "diffingEngine": "pixelmatch",
     "configurations": {
       "chrome.laptop": {

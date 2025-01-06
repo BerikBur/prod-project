@@ -2,6 +2,11 @@
     padding: 10px 15px;
     cursor: pointer;
     color: var(--primary-color);
+
+    &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
 }
 
 .clear,
@@ -20,6 +25,10 @@
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
     background: none;
+
+    &:hover:not(:disabled) {
+        opacity: 0.8;
+    }
 }
 
 .background {
@@ -63,4 +72,9 @@
 
 .size_xl {
     font: var(--font-xl);
+}
+
+.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
 }

@@ -1,10 +1,11 @@
 {
-  "Modal": "Modal",
   "dec": "dec",
   "inc": "inc",
   "obnovit-stranicu": "Refresh page",
   "proizoshla-nepredvidennaya-oshibka": "An unexpected error occurred",
   "throw-error": "Throw error",
+  "Введите username": "Введите username",
+  "Введите пароль": "Введите пароль",
   "Войти": "Войти",
   "Главная": "Main",
   "Главная страница": "Main page",
