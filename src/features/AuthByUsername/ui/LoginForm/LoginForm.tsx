@@ -2,8 +2,15 @@ import { classNames } from 'shared/lib/classNames/classNames';
 import { useTranslation } from 'react-i18next';
 import { Button, ButtonTheme } from 'shared/ui/Button/Button';
 import { Input } from 'shared/ui/Input/Input';
-import { useCallback, useEffect, useState } from 'react';
+import { memo, useCallback, useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { AnyAction, ThunkDispatch } from '@reduxjs/toolkit';
+import { StateSchema } from 'app/providers/StoreProvider';
+import { loginActions } from '../../model/slice/loginSlice';
+import { getLoginState } from '../../model/selectors/getLoginState/getLoginState';
+import { loginByUsername } from '../../model/services/loginByUsername/loginByUsername';
 import cls from './LoginForm.module.scss';
+import { Text, TextTheme } from 'shared/ui/Text/Text';
 
 interface LoginFormProps {
     className?: string;
@@ -11,28 +18,38 @@ interface LoginFormProps {
     isOpen?: boolean;
 }
 
-export const LoginForm = ({ className, onSuccess, isOpen }: LoginFormProps) => {
+export const LoginForm = memo(({ className, onSuccess, isOpen }: LoginFormProps) => {
     const { t } = useTranslation();
-    const [username, setUsername] = useState('');
-    const [password, setPassword] = useState('');
-    const [isLoading, setIsLoading] = useState(false);
+    const dispatch = useDispatch<ThunkDispatch<StateSchema, any, AnyAction>>();
+    const loginForm = useSelector(getLoginState);
+    const {
+        username, password, error, isLoading,
+    } = loginForm;
 
     const onChangeUsername = useCallback((value: string) => {
-        setUsername(value);
-    }, []);
+        dispatch(loginActions.setUsername(value));
+    }, [dispatch]);
 
     const onChangePassword = useCallback((value: string) => {
-        setPassword(value);
-    }, []);
+        dispatch(loginActions.setPassword(value));
+    }, [dispatch]);
 
     const onLoginClick = useCallback(async () => {
-        setIsLoading(true);
-        // TODO: Добавить логику авторизации
-        setIsLoading(false);
-    }, []);
+        try {
+            await dispatch(loginByUsername({ username, password })).unwrap();
+            onSuccess();
+        } catch (e) {
+            console.log(e);
+        }
+    }, [dispatch, password, username, onSuccess]);
 
     return (
+
         <div className={classNames(cls.LoginForm, {}, [className])}>
+            <Text
+                title={t('Форма авторизации')}
+            />
+            {error && <Text text={error} theme={TextTheme.ERROR} />}
             <Input
                 type="text"
                 className={cls.input}
@@ -58,4 +75,4 @@ export const LoginForm = ({ className, onSuccess, isOpen }: LoginFormProps) => {
             </Button>
         </div>
     );
-};
+});

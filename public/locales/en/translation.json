@@ -4,13 +4,16 @@
   "obnovit-stranicu": "Refresh page",
   "proizoshla-nepredvidennaya-oshibka": "An unexpected error occurred",
   "throw-error": "Throw error",
+  "В": "В",
   "Введите username": "Введите username",
   "Введите пароль": "Введите пароль",
   "Войти": "Войти",
+  "Выйти": "Выйти",
   "Главная": "Main",
   "Главная страница": "Main page",
   "Короткий язык": "En",
   "О сайте": "About us",
   "Страница не найдена": "Page not found",
+  "Форма авторизации": "Форма авторизации",
   "Язык": "English"
 }

@@ -10,8 +10,12 @@ export default ({ config }: {config: webpack.Configuration}) => {
         html: '',
         src: path.resolve(__dirname, '..', '..', 'src'),
     };
-    config.resolve.modules.push(paths.src);
+    config.resolve.modules = [paths.src, 'node_modules'];
     config.resolve.extensions.push('.ts', '.tsx');
+    config.resolve.alias = {
+        ...config.resolve.alias,
+        entities: path.resolve(__dirname, '..', '..', 'src', 'entities'),
+    };
 
     // eslint-disable-next-line no-param-reassign
     config.module.rules = config.module.rules.map((rule: RuleSetRule) => {
@@ -28,10 +32,14 @@ export default ({ config }: {config: webpack.Configuration}) => {
     });
     config.module.rules.push(buildCssLoader(true));
 
-    // Добавляем ProvidePlugin для автоматического импорта React
     config.plugins.push(
         new webpack.ProvidePlugin({
             React: 'react',
+        }),
+        new webpack.DefinePlugin({
+            __IS_DEV__: JSON.stringify(true),
+            __API__: JSON.stringify(''),
+            __PROJECT__: JSON.stringify('storybook'),
         }),
     );
 
