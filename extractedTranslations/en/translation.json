@@ -1,9 +1,12 @@
 {
+  "decrement": "",
+  "increment": "",
   "novyinovyi": "novyinovyi",
   "obnovit-stranicu": "obnovit-stranicu",
   "proizoshla-nepredvidennaya-oshibka": "proizoshla-nepredvidennaya-oshibka",
   "stranica-ne-naidena": "stranica-ne-naidena",
   "throw-error": "throw-error",
+  "value": "",
   "Введите username": "",
   "Введите пароль": "",
   "Войти": "",

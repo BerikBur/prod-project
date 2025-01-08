@@ -1,10 +1,10 @@
 {
-  "dec": "dec",
-  "inc": "inc",
+  "decrement": "decrement",
+  "increment": "increment",
   "obnovit-stranicu": "Обновить страницу",
   "proizoshla-nepredvidennaya-oshibka": "Произошла непредвиденная ошибка",
   "throw-error": "throw-error",
-  "В": "В",
+  "value": "value",
   "Введите username": "Введите username",
   "Введите пароль": "Введите пароль",
   "Войти": "Войти",
