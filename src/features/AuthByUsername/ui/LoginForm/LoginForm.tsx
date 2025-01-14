@@ -10,6 +10,7 @@ import { AnyAction, ThunkDispatch } from '@reduxjs/toolkit';
 import { ReduxStoreWithManager, StateSchema } from 'app/providers/StoreProvider';
 import { Text, TextTheme } from 'shared/ui/Text/Text';
 import { DynamicModuleLoader, ReducersList } from 'shared/lib/components/DynamicModuleLoader/DynamicModuleLoader';
+import { useAppDispatch } from 'shared/lib/hooks/useAppDispatch/useAppDispatch';
 import { loginActions, loginReducer } from '../../model/slice/loginSlice';
 import { getLoginState } from '../../model/selectors/getLoginState/getLoginState';
 import { loginByUsername } from '../../model/services/loginByUsername/loginByUsername';
@@ -31,7 +32,7 @@ const initialReducers: ReducersList = {
 
 const LoginForm = memo(({ className, onSuccess, isOpen }: LoginFormProps) => {
     const { t } = useTranslation();
-    const dispatch = useDispatch<ThunkDispatch<StateSchema, any, AnyAction>>();
+    const dispatch = useAppDispatch();
 
     const username = useSelector(getLoginUserName);
     const password = useSelector(getLoginPassword);
@@ -51,7 +52,7 @@ const LoginForm = memo(({ className, onSuccess, isOpen }: LoginFormProps) => {
             await dispatch(loginByUsername({ username, password })).unwrap();
             onSuccess();
         } catch (e) {
-            console.log(e);
+            console.error(e);
         }
     }, [dispatch, password, username, onSuccess]);
 
