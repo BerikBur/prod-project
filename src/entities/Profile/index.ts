@@ -8,6 +8,14 @@ export {
     profileReducer,
 } from './model/slice/profileSlice';
 
+export {
+    fetchProfileData,
+} from './model/services/fetchProfileData/fetchProfileData';
+
+export {
+    ProfileCard,
+} from './ui/ProfileCard/ProfileCard';
+
 // export {
 //     getProfileData,
 //     getProfileError,
@@ -18,14 +26,6 @@ export {
 // export {
 //     updateProfileData,
 // } from './model/services/updateProfileData/updateProfileData';
-
-// export {
-//     fetchProfileData,
-// } from './model/services/fetchProfileData/fetchProfileData';
-
-// export {
-//     ProfileCard,
-// } from './ui/ProfileCard/ProfileCard';
 
 // export {
 //     ValidateProfileError,

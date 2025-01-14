@@ -34,9 +34,7 @@ Dark.decorators = [ThemeDecorator(Theme.DARK), StoreDecorator({
 })];
 
 export const WithError = Template.bind({});
-WithError.args = {
-    error: 'ERROR',
-};
+WithError.args = {};
 WithError.decorators = [StoreDecorator({
     loginForm: {
         username: '123',
@@ -46,9 +44,7 @@ WithError.decorators = [StoreDecorator({
 })];
 
 export const Loading = Template.bind({});
-Loading.args = {
-    isLoading: true,
-};
+Loading.args = {};
 Loading.decorators = [StoreDecorator({
     loginForm: {
         username: '123',

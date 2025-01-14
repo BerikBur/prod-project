@@ -10,7 +10,32 @@ export default ({ config }: {config: webpack.Configuration}) => {
         html: '',
         src: path.resolve(__dirname, '..', '..', 'src'),
     };
-    config.resolve.modules = [paths.src, 'node_modules'];
+
+    if (!config.resolve) {
+        config.resolve = {};
+    }
+    if (!config.resolve.modules) {
+        config.resolve.modules = [];
+    }
+    if (!config.resolve.extensions) {
+        config.resolve.extensions = [];
+    }
+    if (!config.resolve.alias) {
+        config.resolve.alias = {};
+    }
+    if (!config.module) {
+        config.module = {
+            rules: [],
+        };
+    }
+    if (!config.module.rules) {
+        config.module.rules = [];
+    }
+    if (!config.plugins) {
+        config.plugins = [];
+    }
+
+    config.resolve.modules.push(paths.src, 'node_modules');
     config.resolve.extensions.push('.ts', '.tsx');
     config.resolve.alias = {
         ...config.resolve.alias,
@@ -18,13 +43,14 @@ export default ({ config }: {config: webpack.Configuration}) => {
     };
 
     // eslint-disable-next-line no-param-reassign
-    config.module.rules = config.module.rules.map((rule: RuleSetRule) => {
-        if (/svg/.test(rule.test as string)) {
-            return { ...rule, exclude: /\.svg$/i };
-        }
-
-        return rule;
-    });
+    if (config.module.rules) {
+        config.module.rules = config.module.rules.map((rule: RuleSetRule | null | undefined | string | false | 0 | '' | '...') => {
+            if (rule && typeof rule === 'object' && 'test' in rule && rule.test && /svg/.test(rule.test.toString())) {
+                return { ...rule, exclude: /\.svg$/i };
+            }
+            return rule;
+        }) as RuleSetRule[];
+    }
 
     config.module.rules.push({
         test: /\.svg$/,
