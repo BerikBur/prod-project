@@ -1,28 +1,36 @@
 {
-    "posts": [
-        { "id": "1", "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-        { "id": "1", "body": "some comment", "postId": "1" }
-    ],
-    "users": [
-        {
-            "id": "1",
-            "username": "admin",
-            "password": "123"
-        }
-    ],
-    "profile": { 
-        "name": "Aria",
-        "lastName": "Doe",
-        "age": 20,
-        "currency": "RUB",
-        "country": "USA",
-        "city": "New York",
-        "street": "Wall Street",
-        "houseNumber": 1,
-        "apartmentNumber": 1,
-        "username": "admin",
-        "avatar": "https://cdn.pixabay.com/photo/2024/09/11/06/00/character-9038820_1280.jpg"
+  "posts": [
+    {
+      "id": "1",
+      "title": "json-server",
+      "author": "typicode"
     }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "some comment",
+      "postId": "1"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123"
+    }
+  ],
+  "profile": {
+    "name": "Aria and Aur",
+    "lastName": "Doe",
+    "age": 20,
+    "currency": "RUB",
+    "country": "USA",
+    "city": "New York",
+    "street": "Wall Street",
+    "houseNumber": 1,
+    "apartmentNumber": 1,
+    "username": "admin",
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiEORzDiHWKS32jWDv42NACCf0faIrKeR3DQ&s"
+  }
 }

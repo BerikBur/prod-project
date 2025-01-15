@@ -19,7 +19,6 @@ export const fetchProfileData = createAsyncThunk<
     async (_, thunkApi) => {
         const { extra, rejectWithValue } = thunkApi;
         try {
-            // eslint-disable-next-line max-len
             const response = await extra.api.get<Profile>('/profile');
             if (!response.data) {
                 throw new Error();

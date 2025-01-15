@@ -31,6 +31,16 @@
     }
 }
 
+.outlineRed {
+    border: 1px solid var(--red-light);
+    color: var(--red-light);
+    background: none;
+
+    &:hover:not(:disabled) {
+        opacity: 0.8;
+    }
+}
+
 .background {
     border: none;
     background: var(--bg-color);

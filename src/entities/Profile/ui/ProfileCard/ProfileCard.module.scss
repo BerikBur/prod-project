@@ -5,13 +5,7 @@
     padding: 24px;
     background: var(--card);
     border-radius: 16px;
-    border: 1px solid var(--inverted-bg-color);
-}
-
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    border: 2px solid var(--inverted-bg-color);
 }
 
 .data {
@@ -24,10 +18,24 @@
     color: red;
 }
 
-.editBtn {
-    margin-left: auto;
-}
-
 .input {
     width: 100%;
+}
+
+.loading,
+.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.avatarWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.editing {
+    border: 2px solid var(--inverted-primary-color);
 }
