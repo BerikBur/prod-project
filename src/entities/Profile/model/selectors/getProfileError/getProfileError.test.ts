@@ -9,6 +9,8 @@ describe('getProfileError', () => {
         const state: DeepPartial<StateSchema> = {
             profile: {
                 error: 'error',
+                isLoading: false,
+                readonly: false,
             },
         };
         expect(getProfileError(state as StateSchema)).toEqual('error');
