@@ -73,8 +73,8 @@ export default ({ config }: {config: webpack.Configuration}) => {
         test: /\.(png|jpe?g|gif|webp)$/i,
         type: 'asset/resource',
         generator: {
-            filename: 'static/media/[path][name][ext]'
-        }
+            filename: 'static/media/[path][name][ext]',
+        },
     });
 
     config.plugins.push(
