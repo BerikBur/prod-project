@@ -58,6 +58,25 @@ export default ({ config }: {config: webpack.Configuration}) => {
     });
     config.module.rules.push(buildCssLoader(true));
 
+    // Находим и удаляем существующее правило для изображений
+    if (config.module.rules) {
+        config.module.rules = config.module.rules.filter((rule: RuleSetRule | null | undefined | string | false | 0 | '' | '...') => {
+            if (rule && typeof rule === 'object' && 'test' in rule && rule.test instanceof RegExp) {
+                return !rule.test.test('test.png') && !rule.test.test('test.jpg') && !rule.test.test('test.webp');
+            }
+            return true;
+        });
+    }
+
+    // Добавляем новое правило для изображений
+    config.module.rules.push({
+        test: /\.(png|jpe?g|gif|webp)$/i,
+        type: 'asset/resource',
+        generator: {
+            filename: 'static/media/[path][name][ext]'
+        }
+    });
+
     config.plugins.push(
         new webpack.ProvidePlugin({
             React: 'react',
