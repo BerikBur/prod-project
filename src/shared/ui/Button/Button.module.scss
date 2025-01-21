@@ -3,9 +3,14 @@
     cursor: pointer;
     color: var(--primary-color);
 
-    &:disabled {
-        opacity: 0.5;
-        cursor: not-allowed;
+    // &:disabled {
+    //     opacity: 0.1;
+    //     cursor: not-allowed;
+    // }
+    &:hover {
+        opacity: 0.8;
+        fill-opacity: 0.8;
+        stroke-opacity: 0.8;
     }
 }
 

@@ -21,7 +21,8 @@
     "test:ui:report": "node scripts/generate-visual-json-report.js",
     "loki:test": "npx loki test --requireReference --chromeDockerWithoutSecurityArgs",
     "storybook": "storybook dev -p 6006 -c ./config/storybook",
-    "storybook:build": "storybook build -c ./config/storybook"
+    "storybook:build": "storybook build -c ./config/storybook",
+    "create:component": "node ./scripts/createComponent"
   },
   "keywords": [],
   "author": "",
