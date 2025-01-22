@@ -1,10 +1,8 @@
 import { Meta, StoryFn } from '@storybook/react';
-import { Theme } from 'app/providers/ThemeProvider';
-import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator/ThemeDecorator';
 import { CommentList } from './CommentList';
 
 export default {
-    title: 'shared/CommentList',
+    title: 'entities/Comment/CommentList',
     component: CommentList,
     argTypes: {
         backgroundColor: { control: 'color' },
@@ -14,8 +12,23 @@ export default {
 const Template: StoryFn<typeof CommentList> = (args) => <CommentList {...args} />;
 
 export const Normal = Template.bind({});
-Normal.args = {};
+Normal.args = {
+    comments: [
+        {
+            id: '1',
+            text: 'hello world',
+            user: { id: '1', username: 'Vasya' },
+        },
+        {
+            id: '2',
+            text: 'Comment 2',
+            user: { id: '1', username: 'Petya' },
+        },
+    ],
+};
 
-export const Dark = Template.bind({});
-Dark.args = {};
-Dark.decorators = [ThemeDecorator(Theme.DARK)];
+export const Loading = Template.bind({});
+Loading.args = {
+    comments: [],
+    isLoading: true,
+};
