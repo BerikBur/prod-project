@@ -1,0 +1,18 @@
+.GRID {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+
+    .card {
+        margin-right: 5px;
+        margin-top: 5px;
+    } 
+}
+
+.LIST {
+
+    .card {
+        margin-bottom: 5px;
+    }
+    
+}

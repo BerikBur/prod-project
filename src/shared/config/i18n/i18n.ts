@@ -12,6 +12,9 @@ i18n
         supportedLngs: ['en', 'ru'],
         debug: __IS_DEV__,
 
+        // Дополнительные настройки для обработки точек
+        load: 'languageOnly',
+
         interpolation: {
             escapeValue: false,
         },

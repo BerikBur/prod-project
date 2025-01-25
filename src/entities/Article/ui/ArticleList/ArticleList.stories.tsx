@@ -1,13 +1,18 @@
-import { classNames } from 'shared/lib/classNames/classNames';
-import { memo } from 'react';
-import { useTranslation } from 'react-i18next';
-import { Article, ArticleList, ArticleView } from 'entities/Article';
-import { ArticleBlockType, ArticleType } from 'entities/Article/model/types/article';
-import cls from './ArticlesPage.module.scss';
+import { Meta, StoryFn } from '@storybook/react';
+import { Theme } from 'app/providers/ThemeProvider';
+import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator/ThemeDecorator';
+import { Article, ArticleBlockType, ArticleType, ArticleView } from 'entities/Article/model/types/article';
+import { ArticleList } from './ArticleList';
 
-interface ArticlesPageProps {
-    className?: string;
-}
+export default {
+    title: 'entities/Article/ArticleList',
+    component: ArticleList,
+    argTypes: {
+        backgroundColor: { control: 'color' },
+    },
+} as Meta<typeof ArticleList>;
+
+const Template: StoryFn<typeof ArticleList> = (args) => <ArticleList {...args} />;
 
 const article = {
     id: '1',
@@ -61,26 +66,37 @@ const article = {
     ],
 } as Article;
 
-const ArticlesPage = (props: ArticlesPageProps) => {
-    const { className } = props;
-    const { t } = useTranslation();
-
-    return (
-        <div className={classNames(cls.ArticlesPage, {}, [className])}>
-            <ArticleList
-                view={ArticleView.LIST}
-                articles={
-                    new Array(16)
-                        .fill(0)
-                        .map((item, index) => ({
-                            ...article,
-                            id: String(index),
-                        }))
-                }
-                isLoading
-            />
-        </div>
-    );
+export const isLoading = Template.bind({});
+isLoading.args = {
+    isLoading: true,
+    articles: new Array(16)
+        .fill(0)
+        .map((item, index) => ({
+            ...article,
+            id: String(index),
+        })),
+    view: ArticleView.GRID,
 };
 
-export default memo(ArticlesPage);
+export const Normal = Template.bind({});
+Normal.args = {
+    articles: new Array(16)
+        .fill(0)
+        .map((item, index) => ({
+            ...article,
+            id: String(index),
+        })),
+    view: ArticleView.GRID,
+};
+
+export const Dark = Template.bind({});
+Dark.args = {
+    articles: new Array(16)
+        .fill(0)
+        .map((item, index) => ({
+            ...article,
+            id: String(index),
+        })),
+    view: ArticleView.GRID,
+};
+Dark.decorators = [ThemeDecorator(Theme.DARK)];

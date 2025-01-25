@@ -20,6 +20,8 @@ export function buildBabelLoader(options: BuildOptions) {
                             removeUnusedKeys: true,
                             useKeyAsDefaultValue: true,
                             discardOldKeys: true,
+                            keySeparator: false,
+                            nsSeparator: false,
                         },
                     ],
                     isDev && require.resolve('react-refresh/babel'),
