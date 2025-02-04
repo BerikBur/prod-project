@@ -81,6 +81,1356 @@
           "title": "Рисунок 2 - пример для инпута"
         }
       ]
+    },
+    {
+      "id": "2",
+      "title": "Python news",
+      "subtitle": "Что нового в Python за 2024 год?",
+      "img": "data:image/png;base64,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",
+      "views": 1022,
+      "createdAt": "23.01.2023",
+      "userId": "1",
+      "type": [
+        "Crypto",
+        "Science",
+        "Tech"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id='hello'></p>\n    <script>\n      document.getElementById('hello').innerHTML = 'Hello, world!';\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/post_images/465/185/884/465185884cda3070549c035a37a7a3e8.png",
+          "title": "Рисунок 1 - скриншот сайта"
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "code": "console.log('Hello, World!');"
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Если вы предполагаете, что в вашем проекте потенциально могут быть использованы инпуты со сложными конфигурациями (маски, обрезка каких-то символов руками и т.д.), то при создании переиспользуемого компонента инпута я настоятельно рекомендую завязываться только на onInput и не использовать onChange. Оставляя только onChange, вы рискуете столкнуться с тем же, что и я и вам придется перелопачивать часть логики попутно разбираясь, почему же эта ерунда не работает так, как нужно. Если вам нужно полностью исключить влияние onChange, используйте только onInput с продуманной логикой обработки. Важно помнить, что onChange всегда сработает после onInput."
+          ]
+        },
+        {
+          "id": "8",
+          "type": "TEXT",
+          "title": "Кейсы пользовательского взаимодействия",
+          "paragraphs": [
+            "Для начала разберемся, что же это был за инпут (потому что для обычного использования инпута в базовых ситуациях и видах эта статья вряд ли будет полезна). Инпут был приблизительно следующего формата:"
+          ]
+        },
+        {
+          "id": "9",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/upload_files/03b/b40/15c/03bb4015c92405dc46e848daf6aabd48.png",
+          "title": "Рисунок 2 - пример для инпута"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "TS news",
+      "subtitle": "Что нового в TS за 2024 год?",
+      "img": "data:image/png;base64,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",
+      "views": 1022,
+      "createdAt": "23.01.2023",
+      "userId": "1",
+      "type": [
+        "Crypto",
+        "Science",
+        "Tech"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id='hello'></p>\n    <script>\n      document.getElementById('hello').innerHTML = 'Hello, world!';\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/post_images/465/185/884/465185884cda3070549c035a37a7a3e8.png",
+          "title": "Рисунок 1 - скриншот сайта"
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "code": "console.log('Hello, World!');"
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Если вы предполагаете, что в вашем проекте потенциально могут быть использованы инпуты со сложными конфигурациями (маски, обрезка каких-то символов руками и т.д.), то при создании переиспользуемого компонента инпута я настоятельно рекомендую завязываться только на onInput и не использовать onChange. Оставляя только onChange, вы рискуете столкнуться с тем же, что и я и вам придется перелопачивать часть логики попутно разбираясь, почему же эта ерунда не работает так, как нужно. Если вам нужно полностью исключить влияние onChange, используйте только onInput с продуманной логикой обработки. Важно помнить, что onChange всегда сработает после onInput."
+          ]
+        },
+        {
+          "id": "8",
+          "type": "TEXT",
+          "title": "Кейсы пользовательского взаимодействия",
+          "paragraphs": [
+            "Для начала разберемся, что же это был за инпут (потому что для обычного использования инпута в базовых ситуациях и видах эта статья вряд ли будет полезна). Инпут был приблизительно следующего формата:"
+          ]
+        },
+        {
+          "id": "9",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/upload_files/03b/b40/15c/03bb4015c92405dc46e848daf6aabd48.png",
+          "title": "Рисунок 2 - пример для инпута"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "C++ news",
+      "subtitle": "Что нового в C++ за 2024 год?",
+      "img": "data:image/png;base64,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",
+      "views": 1022,
+      "createdAt": "23.01.2023",
+      "userId": "1",
+      "type": [
+        "Crypto",
+        "Science",
+        "Tech"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id='hello'></p>\n    <script>\n      document.getElementById('hello').innerHTML = 'Hello, world!';\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/post_images/465/185/884/465185884cda3070549c035a37a7a3e8.png",
+          "title": "Рисунок 1 - скриншот сайта"
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "code": "console.log('Hello, World!');"
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Если вы предполагаете, что в вашем проекте потенциально могут быть использованы инпуты со сложными конфигурациями (маски, обрезка каких-то символов руками и т.д.), то при создании переиспользуемого компонента инпута я настоятельно рекомендую завязываться только на onInput и не использовать onChange. Оставляя только onChange, вы рискуете столкнуться с тем же, что и я и вам придется перелопачивать часть логики попутно разбираясь, почему же эта ерунда не работает так, как нужно. Если вам нужно полностью исключить влияние onChange, используйте только onInput с продуманной логикой обработки. Важно помнить, что onChange всегда сработает после onInput."
+          ]
+        },
+        {
+          "id": "8",
+          "type": "TEXT",
+          "title": "Кейсы пользовательского взаимодействия",
+          "paragraphs": [
+            "Для начала разберемся, что же это был за инпут (потому что для обычного использования инпута в базовых ситуациях и видах эта статья вряд ли будет полезна). Инпут был приблизительно следующего формата:"
+          ]
+        },
+        {
+          "id": "9",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/upload_files/03b/b40/15c/03bb4015c92405dc46e848daf6aabd48.png",
+          "title": "Рисунок 2 - пример для инпута"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Crypto news",
+      "subtitle": "Что нового в C++ за 2024 год?",
+      "img": "data:image/png;base64,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",
+      "views": 1022,
+      "createdAt": "23.01.2023",
+      "userId": "1",
+      "type": [
+        "Crypto",
+        "Science",
+        "Tech"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id='hello'></p>\n    <script>\n      document.getElementById('hello').innerHTML = 'Hello, world!';\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/post_images/465/185/884/465185884cda3070549c035a37a7a3e8.png",
+          "title": "Рисунок 1 - скриншот сайта"
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "code": "console.log('Hello, World!');"
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Если вы предполагаете, что в вашем проекте потенциально могут быть использованы инпуты со сложными конфигурациями (маски, обрезка каких-то символов руками и т.д.), то при создании переиспользуемого компонента инпута я настоятельно рекомендую завязываться только на onInput и не использовать onChange. Оставляя только onChange, вы рискуете столкнуться с тем же, что и я и вам придется перелопачивать часть логики попутно разбираясь, почему же эта ерунда не работает так, как нужно. Если вам нужно полностью исключить влияние onChange, используйте только onInput с продуманной логикой обработки. Важно помнить, что onChange всегда сработает после onInput."
+          ]
+        },
+        {
+          "id": "8",
+          "type": "TEXT",
+          "title": "Кейсы пользовательского взаимодействия",
+          "paragraphs": [
+            "Для начала разберемся, что же это был за инпут (потому что для обычного использования инпута в базовых ситуациях и видах эта статья вряд ли будет полезна). Инпут был приблизительно следующего формата:"
+          ]
+        },
+        {
+          "id": "9",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/upload_files/03b/b40/15c/03bb4015c92405dc46e848daf6aabd48.png",
+          "title": "Рисунок 2 - пример для инпута"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "VK news",
+      "subtitle": "Что нового в C++ за 2024 год?",
+      "img": "data:image/png;base64,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",
+      "views": 1022,
+      "createdAt": "23.01.2023",
+      "userId": "1",
+      "type": [
+        "Crypto",
+        "Science",
+        "Tech"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id='hello'></p>\n    <script>\n      document.getElementById('hello').innerHTML = 'Hello, world!';\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/post_images/465/185/884/465185884cda3070549c035a37a7a3e8.png",
+          "title": "Рисунок 1 - скриншот сайта"
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "code": "console.log('Hello, World!');"
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Если вы предполагаете, что в вашем проекте потенциально могут быть использованы инпуты со сложными конфигурациями (маски, обрезка каких-то символов руками и т.д.), то при создании переиспользуемого компонента инпута я настоятельно рекомендую завязываться только на onInput и не использовать onChange. Оставляя только onChange, вы рискуете столкнуться с тем же, что и я и вам придется перелопачивать часть логики попутно разбираясь, почему же эта ерунда не работает так, как нужно. Если вам нужно полностью исключить влияние onChange, используйте только onInput с продуманной логикой обработки. Важно помнить, что onChange всегда сработает после onInput."
+          ]
+        },
+        {
+          "id": "8",
+          "type": "TEXT",
+          "title": "Кейсы пользовательского взаимодействия",
+          "paragraphs": [
+            "Для начала разберемся, что же это был за инпут (потому что для обычного использования инпута в базовых ситуациях и видах эта статья вряд ли будет полезна). Инпут был приблизительно следующего формата:"
+          ]
+        },
+        {
+          "id": "9",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/upload_files/03b/b40/15c/03bb4015c92405dc46e848daf6aabd48.png",
+          "title": "Рисунок 2 - пример для инпута"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Nike news",
+      "subtitle": "Что нового в C++ за 2024 год?",
+      "img": "data:image/png;base64,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",
+      "views": 1022,
+      "createdAt": "23.01.2023",
+      "userId": "1",
+      "type": [
+        "Crypto",
+        "Science",
+        "Tech"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id='hello'></p>\n    <script>\n      document.getElementById('hello').innerHTML = 'Hello, world!';\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/post_images/465/185/884/465185884cda3070549c035a37a7a3e8.png",
+          "title": "Рисунок 1 - скриншот сайта"
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "code": "console.log('Hello, World!');"
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Если вы предполагаете, что в вашем проекте потенциально могут быть использованы инпуты со сложными конфигурациями (маски, обрезка каких-то символов руками и т.д.), то при создании переиспользуемого компонента инпута я настоятельно рекомендую завязываться только на onInput и не использовать onChange. Оставляя только onChange, вы рискуете столкнуться с тем же, что и я и вам придется перелопачивать часть логики попутно разбираясь, почему же эта ерунда не работает так, как нужно. Если вам нужно полностью исключить влияние onChange, используйте только onInput с продуманной логикой обработки. Важно помнить, что onChange всегда сработает после onInput."
+          ]
+        },
+        {
+          "id": "8",
+          "type": "TEXT",
+          "title": "Кейсы пользовательского взаимодействия",
+          "paragraphs": [
+            "Для начала разберемся, что же это был за инпут (потому что для обычного использования инпута в базовых ситуациях и видах эта статья вряд ли будет полезна). Инпут был приблизительно следующего формата:"
+          ]
+        },
+        {
+          "id": "9",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/upload_files/03b/b40/15c/03bb4015c92405dc46e848daf6aabd48.png",
+          "title": "Рисунок 2 - пример для инпута"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Any news",
+      "subtitle": "Что нового в C++ за 2024 год?",
+      "img": "data:image/png;base64,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",
+      "views": 1022,
+      "createdAt": "23.01.2023",
+      "userId": "1",
+      "type": [
+        "Crypto",
+        "Science",
+        "Tech"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id='hello'></p>\n    <script>\n      document.getElementById('hello').innerHTML = 'Hello, world!';\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/post_images/465/185/884/465185884cda3070549c035a37a7a3e8.png",
+          "title": "Рисунок 1 - скриншот сайта"
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "code": "console.log('Hello, World!');"
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Если вы предполагаете, что в вашем проекте потенциально могут быть использованы инпуты со сложными конфигурациями (маски, обрезка каких-то символов руками и т.д.), то при создании переиспользуемого компонента инпута я настоятельно рекомендую завязываться только на onInput и не использовать onChange. Оставляя только onChange, вы рискуете столкнуться с тем же, что и я и вам придется перелопачивать часть логики попутно разбираясь, почему же эта ерунда не работает так, как нужно. Если вам нужно полностью исключить влияние onChange, используйте только onInput с продуманной логикой обработки. Важно помнить, что onChange всегда сработает после onInput."
+          ]
+        },
+        {
+          "id": "8",
+          "type": "TEXT",
+          "title": "Кейсы пользовательского взаимодействия",
+          "paragraphs": [
+            "Для начала разберемся, что же это был за инпут (потому что для обычного использования инпута в базовых ситуациях и видах эта статья вряд ли будет полезна). Инпут был приблизительно следующего формата:"
+          ]
+        },
+        {
+          "id": "9",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/upload_files/03b/b40/15c/03bb4015c92405dc46e848daf6aabd48.png",
+          "title": "Рисунок 2 - пример для инпута"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Shopping news",
+      "subtitle": "Что нового в C++ за 2024 год?",
+      "img": "data:image/png;base64,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",
+      "views": 1022,
+      "createdAt": "23.01.2023",
+      "userId": "1",
+      "type": [
+        "Crypto",
+        "Science",
+        "Tech"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id='hello'></p>\n    <script>\n      document.getElementById('hello').innerHTML = 'Hello, world!';\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/post_images/465/185/884/465185884cda3070549c035a37a7a3e8.png",
+          "title": "Рисунок 1 - скриншот сайта"
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "code": "console.log('Hello, World!');"
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Если вы предполагаете, что в вашем проекте потенциально могут быть использованы инпуты со сложными конфигурациями (маски, обрезка каких-то символов руками и т.д.), то при создании переиспользуемого компонента инпута я настоятельно рекомендую завязываться только на onInput и не использовать onChange. Оставляя только onChange, вы рискуете столкнуться с тем же, что и я и вам придется перелопачивать часть логики попутно разбираясь, почему же эта ерунда не работает так, как нужно. Если вам нужно полностью исключить влияние onChange, используйте только onInput с продуманной логикой обработки. Важно помнить, что onChange всегда сработает после onInput."
+          ]
+        },
+        {
+          "id": "8",
+          "type": "TEXT",
+          "title": "Кейсы пользовательского взаимодействия",
+          "paragraphs": [
+            "Для начала разберемся, что же это был за инпут (потому что для обычного использования инпута в базовых ситуациях и видах эта статья вряд ли будет полезна). Инпут был приблизительно следующего формата:"
+          ]
+        },
+        {
+          "id": "9",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/upload_files/03b/b40/15c/03bb4015c92405dc46e848daf6aabd48.png",
+          "title": "Рисунок 2 - пример для инпута"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "AI news",
+      "subtitle": "Что нового в C++ за 2024 год?",
+      "img": "data:image/png;base64,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",
+      "views": 1022,
+      "createdAt": "23.01.2023",
+      "userId": "1",
+      "type": [
+        "Crypto",
+        "Science",
+        "Tech"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id='hello'></p>\n    <script>\n      document.getElementById('hello').innerHTML = 'Hello, world!';\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/post_images/465/185/884/465185884cda3070549c035a37a7a3e8.png",
+          "title": "Рисунок 1 - скриншот сайта"
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "code": "console.log('Hello, World!');"
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Если вы предполагаете, что в вашем проекте потенциально могут быть использованы инпуты со сложными конфигурациями (маски, обрезка каких-то символов руками и т.д.), то при создании переиспользуемого компонента инпута я настоятельно рекомендую завязываться только на onInput и не использовать onChange. Оставляя только onChange, вы рискуете столкнуться с тем же, что и я и вам придется перелопачивать часть логики попутно разбираясь, почему же эта ерунда не работает так, как нужно. Если вам нужно полностью исключить влияние onChange, используйте только onInput с продуманной логикой обработки. Важно помнить, что onChange всегда сработает после onInput."
+          ]
+        },
+        {
+          "id": "8",
+          "type": "TEXT",
+          "title": "Кейсы пользовательского взаимодействия",
+          "paragraphs": [
+            "Для начала разберемся, что же это был за инпут (потому что для обычного использования инпута в базовых ситуациях и видах эта статья вряд ли будет полезна). Инпут был приблизительно следующего формата:"
+          ]
+        },
+        {
+          "id": "9",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/upload_files/03b/b40/15c/03bb4015c92405dc46e848daf6aabd48.png",
+          "title": "Рисунок 2 - пример для инпута"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "New news",
+      "subtitle": "Что нового в C++ за 2024 год?",
+      "img": "data:image/png;base64,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",
+      "views": 1022,
+      "createdAt": "23.01.2023",
+      "userId": "1",
+      "type": [
+        "Crypto",
+        "Science",
+        "Tech"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id='hello'></p>\n    <script>\n      document.getElementById('hello').innerHTML = 'Hello, world!';\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/post_images/465/185/884/465185884cda3070549c035a37a7a3e8.png",
+          "title": "Рисунок 1 - скриншот сайта"
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "code": "console.log('Hello, World!');"
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Если вы предполагаете, что в вашем проекте потенциально могут быть использованы инпуты со сложными конфигурациями (маски, обрезка каких-то символов руками и т.д.), то при создании переиспользуемого компонента инпута я настоятельно рекомендую завязываться только на onInput и не использовать onChange. Оставляя только onChange, вы рискуете столкнуться с тем же, что и я и вам придется перелопачивать часть логики попутно разбираясь, почему же эта ерунда не работает так, как нужно. Если вам нужно полностью исключить влияние onChange, используйте только onInput с продуманной логикой обработки. Важно помнить, что onChange всегда сработает после onInput."
+          ]
+        },
+        {
+          "id": "8",
+          "type": "TEXT",
+          "title": "Кейсы пользовательского взаимодействия",
+          "paragraphs": [
+            "Для начала разберемся, что же это был за инпут (потому что для обычного использования инпута в базовых ситуациях и видах эта статья вряд ли будет полезна). Инпут был приблизительно следующего формата:"
+          ]
+        },
+        {
+          "id": "9",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/upload_files/03b/b40/15c/03bb4015c92405dc46e848daf6aabd48.png",
+          "title": "Рисунок 2 - пример для инпута"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Second news",
+      "subtitle": "Что нового в C++ за 2024 год?",
+      "img": "data:image/png;base64,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",
+      "views": 1022,
+      "createdAt": "23.01.2023",
+      "userId": "1",
+      "type": [
+        "Crypto",
+        "Science",
+        "Tech"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id='hello'></p>\n    <script>\n      document.getElementById('hello').innerHTML = 'Hello, world!';\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/post_images/465/185/884/465185884cda3070549c035a37a7a3e8.png",
+          "title": "Рисунок 1 - скриншот сайта"
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "code": "console.log('Hello, World!');"
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Если вы предполагаете, что в вашем проекте потенциально могут быть использованы инпуты со сложными конфигурациями (маски, обрезка каких-то символов руками и т.д.), то при создании переиспользуемого компонента инпута я настоятельно рекомендую завязываться только на onInput и не использовать onChange. Оставляя только onChange, вы рискуете столкнуться с тем же, что и я и вам придется перелопачивать часть логики попутно разбираясь, почему же эта ерунда не работает так, как нужно. Если вам нужно полностью исключить влияние onChange, используйте только onInput с продуманной логикой обработки. Важно помнить, что onChange всегда сработает после onInput."
+          ]
+        },
+        {
+          "id": "8",
+          "type": "TEXT",
+          "title": "Кейсы пользовательского взаимодействия",
+          "paragraphs": [
+            "Для начала разберемся, что же это был за инпут (потому что для обычного использования инпута в базовых ситуациях и видах эта статья вряд ли будет полезна). Инпут был приблизительно следующего формата:"
+          ]
+        },
+        {
+          "id": "9",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/upload_files/03b/b40/15c/03bb4015c92405dc46e848daf6aabd48.png",
+          "title": "Рисунок 2 - пример для инпута"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Oracle news",
+      "subtitle": "Что нового в C++ за 2024 год?",
+      "img": "data:image/png;base64,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",
+      "views": 1022,
+      "createdAt": "23.01.2023",
+      "userId": "1",
+      "type": [
+        "Crypto",
+        "Science",
+        "Tech"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id='hello'></p>\n    <script>\n      document.getElementById('hello').innerHTML = 'Hello, world!';\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/post_images/465/185/884/465185884cda3070549c035a37a7a3e8.png",
+          "title": "Рисунок 1 - скриншот сайта"
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "code": "console.log('Hello, World!');"
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Если вы предполагаете, что в вашем проекте потенциально могут быть использованы инпуты со сложными конфигурациями (маски, обрезка каких-то символов руками и т.д.), то при создании переиспользуемого компонента инпута я настоятельно рекомендую завязываться только на onInput и не использовать onChange. Оставляя только onChange, вы рискуете столкнуться с тем же, что и я и вам придется перелопачивать часть логики попутно разбираясь, почему же эта ерунда не работает так, как нужно. Если вам нужно полностью исключить влияние onChange, используйте только onInput с продуманной логикой обработки. Важно помнить, что onChange всегда сработает после onInput."
+          ]
+        },
+        {
+          "id": "8",
+          "type": "TEXT",
+          "title": "Кейсы пользовательского взаимодействия",
+          "paragraphs": [
+            "Для начала разберемся, что же это был за инпут (потому что для обычного использования инпута в базовых ситуациях и видах эта статья вряд ли будет полезна). Инпут был приблизительно следующего формата:"
+          ]
+        },
+        {
+          "id": "9",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/upload_files/03b/b40/15c/03bb4015c92405dc46e848daf6aabd48.png",
+          "title": "Рисунок 2 - пример для инпута"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "New One",
+      "subtitle": "Что нового в C++ за 2024 год?",
+      "img": "data:image/png;base64,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",
+      "views": 1022,
+      "createdAt": "23.01.2023",
+      "userId": "1",
+      "type": [
+        "Crypto",
+        "Science",
+        "Tech"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id='hello'></p>\n    <script>\n      document.getElementById('hello').innerHTML = 'Hello, world!';\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/post_images/465/185/884/465185884cda3070549c035a37a7a3e8.png",
+          "title": "Рисунок 1 - скриншот сайта"
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "code": "console.log('Hello, World!');"
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Если вы предполагаете, что в вашем проекте потенциально могут быть использованы инпуты со сложными конфигурациями (маски, обрезка каких-то символов руками и т.д.), то при создании переиспользуемого компонента инпута я настоятельно рекомендую завязываться только на onInput и не использовать onChange. Оставляя только onChange, вы рискуете столкнуться с тем же, что и я и вам придется перелопачивать часть логики попутно разбираясь, почему же эта ерунда не работает так, как нужно. Если вам нужно полностью исключить влияние onChange, используйте только onInput с продуманной логикой обработки. Важно помнить, что onChange всегда сработает после onInput."
+          ]
+        },
+        {
+          "id": "8",
+          "type": "TEXT",
+          "title": "Кейсы пользовательского взаимодействия",
+          "paragraphs": [
+            "Для начала разберемся, что же это был за инпут (потому что для обычного использования инпута в базовых ситуациях и видах эта статья вряд ли будет полезна). Инпут был приблизительно следующего формата:"
+          ]
+        },
+        {
+          "id": "9",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/upload_files/03b/b40/15c/03bb4015c92405dc46e848daf6aabd48.png",
+          "title": "Рисунок 2 - пример для инпута"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Never news",
+      "subtitle": "Что нового в C++ за 2024 год?",
+      "img": "data:image/png;base64,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",
+      "views": 1022,
+      "createdAt": "23.01.2023",
+      "userId": "1",
+      "type": [
+        "Crypto",
+        "Science",
+        "Tech"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id='hello'></p>\n    <script>\n      document.getElementById('hello').innerHTML = 'Hello, world!';\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/post_images/465/185/884/465185884cda3070549c035a37a7a3e8.png",
+          "title": "Рисунок 1 - скриншот сайта"
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "code": "console.log('Hello, World!');"
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Если вы предполагаете, что в вашем проекте потенциально могут быть использованы инпуты со сложными конфигурациями (маски, обрезка каких-то символов руками и т.д.), то при создании переиспользуемого компонента инпута я настоятельно рекомендую завязываться только на onInput и не использовать onChange. Оставляя только onChange, вы рискуете столкнуться с тем же, что и я и вам придется перелопачивать часть логики попутно разбираясь, почему же эта ерунда не работает так, как нужно. Если вам нужно полностью исключить влияние onChange, используйте только onInput с продуманной логикой обработки. Важно помнить, что onChange всегда сработает после onInput."
+          ]
+        },
+        {
+          "id": "8",
+          "type": "TEXT",
+          "title": "Кейсы пользовательского взаимодействия",
+          "paragraphs": [
+            "Для начала разберемся, что же это был за инпут (потому что для обычного использования инпута в базовых ситуациях и видах эта статья вряд ли будет полезна). Инпут был приблизительно следующего формата:"
+          ]
+        },
+        {
+          "id": "9",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/upload_files/03b/b40/15c/03bb4015c92405dc46e848daf6aabd48.png",
+          "title": "Рисунок 2 - пример для инпута"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Good news",
+      "subtitle": "Что нового в C++ за 2024 год?",
+      "img": "data:image/png;base64,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",
+      "views": 1022,
+      "createdAt": "23.01.2023",
+      "userId": "1",
+      "type": [
+        "Crypto",
+        "Science",
+        "Tech"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id='hello'></p>\n    <script>\n      document.getElementById('hello').innerHTML = 'Hello, world!';\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/post_images/465/185/884/465185884cda3070549c035a37a7a3e8.png",
+          "title": "Рисунок 1 - скриншот сайта"
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "code": "console.log('Hello, World!');"
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Если вы предполагаете, что в вашем проекте потенциально могут быть использованы инпуты со сложными конфигурациями (маски, обрезка каких-то символов руками и т.д.), то при создании переиспользуемого компонента инпута я настоятельно рекомендую завязываться только на onInput и не использовать onChange. Оставляя только onChange, вы рискуете столкнуться с тем же, что и я и вам придется перелопачивать часть логики попутно разбираясь, почему же эта ерунда не работает так, как нужно. Если вам нужно полностью исключить влияние onChange, используйте только onInput с продуманной логикой обработки. Важно помнить, что onChange всегда сработает после onInput."
+          ]
+        },
+        {
+          "id": "8",
+          "type": "TEXT",
+          "title": "Кейсы пользовательского взаимодействия",
+          "paragraphs": [
+            "Для начала разберемся, что же это был за инпут (потому что для обычного использования инпута в базовых ситуациях и видах эта статья вряд ли будет полезна). Инпут был приблизительно следующего формата:"
+          ]
+        },
+        {
+          "id": "9",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/upload_files/03b/b40/15c/03bb4015c92405dc46e848daf6aabd48.png",
+          "title": "Рисунок 2 - пример для инпута"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Best news",
+      "subtitle": "Что нового в C++ за 2024 год?",
+      "img": "data:image/png;base64,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",
+      "views": 1022,
+      "createdAt": "23.01.2023",
+      "userId": "1",
+      "type": [
+        "Crypto",
+        "Science",
+        "Tech"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id='hello'></p>\n    <script>\n      document.getElementById('hello').innerHTML = 'Hello, world!';\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/post_images/465/185/884/465185884cda3070549c035a37a7a3e8.png",
+          "title": "Рисунок 1 - скриншот сайта"
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "code": "console.log('Hello, World!');"
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Если вы предполагаете, что в вашем проекте потенциально могут быть использованы инпуты со сложными конфигурациями (маски, обрезка каких-то символов руками и т.д.), то при создании переиспользуемого компонента инпута я настоятельно рекомендую завязываться только на onInput и не использовать onChange. Оставляя только onChange, вы рискуете столкнуться с тем же, что и я и вам придется перелопачивать часть логики попутно разбираясь, почему же эта ерунда не работает так, как нужно. Если вам нужно полностью исключить влияние onChange, используйте только onInput с продуманной логикой обработки. Важно помнить, что onChange всегда сработает после onInput."
+          ]
+        },
+        {
+          "id": "8",
+          "type": "TEXT",
+          "title": "Кейсы пользовательского взаимодействия",
+          "paragraphs": [
+            "Для начала разберемся, что же это был за инпут (потому что для обычного использования инпута в базовых ситуациях и видах эта статья вряд ли будет полезна). Инпут был приблизительно следующего формата:"
+          ]
+        },
+        {
+          "id": "9",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/upload_files/03b/b40/15c/03bb4015c92405dc46e848daf6aabd48.png",
+          "title": "Рисунок 2 - пример для инпута"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Drop news",
+      "subtitle": "Что нового в C++ за 2024 год?",
+      "img": "data:image/png;base64,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",
+      "views": 1022,
+      "createdAt": "23.01.2023",
+      "userId": "1",
+      "type": [
+        "Crypto",
+        "Science",
+        "Tech"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id='hello'></p>\n    <script>\n      document.getElementById('hello').innerHTML = 'Hello, world!';\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/post_images/465/185/884/465185884cda3070549c035a37a7a3e8.png",
+          "title": "Рисунок 1 - скриншот сайта"
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "code": "console.log('Hello, World!');"
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Если вы предполагаете, что в вашем проекте потенциально могут быть использованы инпуты со сложными конфигурациями (маски, обрезка каких-то символов руками и т.д.), то при создании переиспользуемого компонента инпута я настоятельно рекомендую завязываться только на onInput и не использовать onChange. Оставляя только onChange, вы рискуете столкнуться с тем же, что и я и вам придется перелопачивать часть логики попутно разбираясь, почему же эта ерунда не работает так, как нужно. Если вам нужно полностью исключить влияние onChange, используйте только onInput с продуманной логикой обработки. Важно помнить, что onChange всегда сработает после onInput."
+          ]
+        },
+        {
+          "id": "8",
+          "type": "TEXT",
+          "title": "Кейсы пользовательского взаимодействия",
+          "paragraphs": [
+            "Для начала разберемся, что же это был за инпут (потому что для обычного использования инпута в базовых ситуациях и видах эта статья вряд ли будет полезна). Инпут был приблизительно следующего формата:"
+          ]
+        },
+        {
+          "id": "9",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/upload_files/03b/b40/15c/03bb4015c92405dc46e848daf6aabd48.png",
+          "title": "Рисунок 2 - пример для инпута"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Token news",
+      "subtitle": "Что нового в C++ за 2024 год?",
+      "img": "data:image/png;base64,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",
+      "views": 1022,
+      "createdAt": "23.01.2023",
+      "userId": "1",
+      "type": [
+        "Crypto",
+        "Science",
+        "Tech"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id='hello'></p>\n    <script>\n      document.getElementById('hello').innerHTML = 'Hello, world!';\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Обратите внимание на то, что панель инструментов разработчика расположена теперь в нижней части экрана. Менять её расположение можно, воспользовавшись меню с тремя точками в её заголовке и выбирая соответствующую пиктограмму.",
+            "Там же можно найти и кнопку для закрытия этой панели.",
+            "Инструменты разработчика, и, в том числе, консоль, имеются и в других браузерах. Консоль хороша тем, что она, когда вы пользуетесь браузером, всегда под рукой."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/post_images/465/185/884/465185884cda3070549c035a37a7a3e8.png",
+          "title": "Рисунок 1 - скриншот сайта"
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "code": "console.log('Hello, World!');"
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Если вы предполагаете, что в вашем проекте потенциально могут быть использованы инпуты со сложными конфигурациями (маски, обрезка каких-то символов руками и т.д.), то при создании переиспользуемого компонента инпута я настоятельно рекомендую завязываться только на onInput и не использовать onChange. Оставляя только onChange, вы рискуете столкнуться с тем же, что и я и вам придется перелопачивать часть логики попутно разбираясь, почему же эта ерунда не работает так, как нужно. Если вам нужно полностью исключить влияние onChange, используйте только onInput с продуманной логикой обработки. Важно помнить, что onChange всегда сработает после onInput."
+          ]
+        },
+        {
+          "id": "8",
+          "type": "TEXT",
+          "title": "Кейсы пользовательского взаимодействия",
+          "paragraphs": [
+            "Для начала разберемся, что же это был за инпут (потому что для обычного использования инпута в базовых ситуациях и видах эта статья вряд ли будет полезна). Инпут был приблизительно следующего формата:"
+          ]
+        },
+        {
+          "id": "9",
+          "type": "IMAGE",
+          "src": "https://habrastorage.org/r/w1560/getpro/habr/upload_files/03b/b40/15c/03bb4015c92405dc46e848daf6aabd48.png",
+          "title": "Рисунок 2 - пример для инпута"
+        }
+      ]
     }
   ],
   "comments": [
@@ -119,6 +1469,18 @@
       "articleId": "1",
       "userId": "1",
       "id": "gWFzI4I"
+    },
+    {
+      "text": "TS is best to control project",
+      "articleId": "3",
+      "userId": "1",
+      "id": "7ilYISv"
+    },
+    {
+      "text": "C++ is fastest?",
+      "articleId": "4",
+      "userId": "1",
+      "id": "48WcW44"
     }
   ],
   "users": [
